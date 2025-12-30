@@ -1,6 +1,6 @@
-const URL_ITEMS = "CSV_ITEMS_URL";
-const URL_SENSORS = "CSV_SENSORS_URL";
-const URL_WEAPONS = "CSV_WEAPONS_URL";
+const URL_ITEMS = "https://docs.google.com/spreadsheets/d/e/2PACX-1vT6B8lxSNNQnv3SinXRbv1iHZ-fTD-2lxC9AN-4p4GFDZBCYtZad67ATf4GEKKHxUZW7HsSu9yWmKM9/pub?gid=321053736&single=true&output=csv";
+const URL_SENSORS = "https://docs.google.com/spreadsheets/d/e/2PACX-1vT6B8lxSNNQnv3SinXRbv1iHZ-fTD-2lxC9AN-4p4GFDZBCYtZad67ATf4GEKKHxUZW7HsSu9yWmKM9/pub?gid=1029009444&single=true&output=csv";
+const URL_WEAPONS = "https://docs.google.com/spreadsheets/d/e/2PACX-1vT6B8lxSNNQnv3SinXRbv1iHZ-fTD-2lxC9AN-4p4GFDZBCYtZad67ATf4GEKKHxUZW7HsSu9yWmKM9/pub?gid=1016458194&single=true&output=csv";
 
 let ITEMS=[], SENSORS=[], WEAPONS=[];
 let LANG = localStorage.lang || "es";
